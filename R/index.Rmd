@@ -252,7 +252,7 @@ include_graphics("../assets/mbacou-print-spam-poster.png")
 
 IFPRI Spatial Production Allocation Model (poster)
 
-US-letter flyer.
+A3 poster.
 
 <u>Tools</u>  
 Adobe Illustrator, Inkscape
