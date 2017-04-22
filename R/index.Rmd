@@ -15,7 +15,7 @@ library(htmltools)
 
 ```
 
-# R/Shiny Dashboards {.storyboard}
+# R/Shiny Applications {.storyboard}
 
 ### <big>Long-Term Climatic Trends</big> for sub-Saharan Africa
 
@@ -58,8 +58,6 @@ An R/Shiny interactive visual that provides circa-2005 sub-national expenditure,
 <u>How to cite</u>  
 HarvestChoice, 2015. *"Poverty Headcount Ratio at below PPP $1.25/day and $2/day, circa 2008 (vector format, r.1.1)."* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/subnatpov.
 
-<u>How to cite</u>  
-
 <u>Tools</u>  
 R, ggvis, leaflet, hansontable JS
 
@@ -80,11 +78,11 @@ http://tools.harvestchoice.org/popTrends
 
 Interactive map and graphs showing Africa's urban areas over 50,000 inhabitants (2015). Bubble sizes represent relative city sizes, and the color intensity is proportional to the projected 2000-2020 population gain (or loss) based on estimates from CIESIN SEDAC Global Population of the World (GPWv4). Country totals are calibrated to UN population projections. This tool explores the differential urban growth rates between coastal and hinterland areas.
 
-<u>Tools</u>  
-R, ggvis, leaflet
-
 <u>How to cite</u>  
 HarvestChoice, 2016. *"Coastal and Hinterland Population Hostspots in Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/popTrends.
+
+<u>Tools</u>  
+R, ggvis, leaflet
 
 
 ### <big>Comparing Travel Times</big> across sub-Saharan Africa
@@ -97,21 +95,21 @@ include_graphics("../assets/mbacou-shiny-traveltimes.png")
 
 ***
 
-Travel Times, sub-Saharan Africa
+Comparing Travel Times Tools, sub-Saharan Africa
 
 http://tools.harvestchoice.org/traveltime/
 
 This tool provides simplified access to Google, HERE and OSRM (OpenStreetMap) distance and routing APIs to return and compare travel time estimates over sub-Saharan Africa.
 
-<u>Tools</u>  
-R, leaflet, hansontable JS
-
 <u>How to cite</u>  
 HarvestChoice, 2016. *"Comparison of Travel Time Estimates across Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/traveltime.
 
-# Tableau&reg; Viz {.storyboard}
+<u>Tools</u>  
+R, ggvis, leaflet
 
-### <big>Regional Agricultural Snapshot</big>
+# Tableau&reg; Dashboards {.storyboard}
+
+### <big>Regional Agricultural Snapshots</big> for Africa
 
 ```{r}
 
@@ -121,15 +119,16 @@ include_graphics("../assets/mbacou-tableau-crdash.png")
 
 ***
 
-Region dashboard.
+IFPRI/HarvestChoice Regional Agricultural Snapshots
 
-Some text.
-Melanie's gallery on Tableau&reg; Public is at https://public.tableau.com/profile/mel.b.#!/.
+https://public.tableau.com/profile/mel.b.#!/vizhome/crDash/Overview 
+
+Report the status of agricultural macro indicators across Africa's geographic regions and economic zones.
 
 <u>Tools</u>  
 Tableau&reg;, R
 
-### Ghana
+### <big>Standardized Farm Characteristics</big>, Ghana 2005
 
 ```{r}
 
@@ -139,16 +138,38 @@ include_graphics("../assets/mbacou-tableau-ghana.png")
 
 ***
 
-Farm and household characteristics, Ghana 2005.
+Standardized Farm Characteristics, Ghana 2005
 
-Some text
+https://public.tableau.com/profile/mel.b.#!/vizhome/GHA-GLSS5/Overview
 
-<u>Tools</u>:
-R, Tableau&reg;
+A collection of farm and household characteristics extracted from the 2005 Ghana Living Standard  Survey (GLSS-5).
 
-# Print Visuals {.storyboard}
+<u>Tools</u>  
+Tableau&reg;, R
 
-### <big>HarvestChoice CELL5M</big> Flyer
+### <big>Country Agricultural Dashboards</big> for Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-tableau-ccdash.png")
+
+```
+
+*** 
+
+IFPRI/HarvestChoice Country Agricultutal Dashboards
+
+https://public.tableau.com/profile/mel.b.#!/vizhome/HCIICharts/CountryDashboard
+
+IFPRI/HarvestChoice country dashboards provide a one-page view of national time-series and sub-national statistics for 52 countries in sub-Saharan Africa.Statistics are aggregated across geographic domains, including administrative units, agro-ecological zones, farming systems, time-to-market zones, and low to high population density areas.
+
+<u>Tools</u>  
+Tableau&reg;, R
+
+
+# Print Production {.storyboard}
+
+### <big>HarvestChoice Gridded Database of Indicators</big> for Africa South of the Sahara (recto-verso flyer)
 
 ```{r}
 
@@ -158,14 +179,14 @@ include_graphics("../assets/mbacou-print-cell5m.png")
 
 ***
 
-HarvestChoice CELL5M
+HarvestChoice Gridded Database of Indicators for Africa South of the Sahara
 
-Some text.
+US-letter flyer provides an overview of a large collection of spatially explicit indicators.
 
-<u>Tools</u>:
+<u>Tools</u>  
 R, ggplo2, Adobe Illustrator, Inkscape
 
-### <big>Spatial Production Allocation Model</big> Flyer
+### <big>IFPRI Spatial Production Allocation Model</big> (recto-verso flyer)
 
 ```{r}
 
@@ -175,18 +196,15 @@ include_graphics("../assets/mbacou-print-spam.png")
 
 ***
 
-Spatial Production Allocation Model
+IFPRI Spatial Production Allocation Model (flyer)
 
-<u>Tools</u>:
+US-letter flyer.
+
+<u>Tools</u>  
 Adobe Illustrator, Inkscape, PowerPoint
 
-Data query and visualization tools built on R/Shiny application framework.
 
-These applications are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) International License.
-
-Copyright 2013-2017 IFPRI/HarvestChoice. Souce code at [GitHub](https://github.com/IFPRI/sda-shiny). Last updated on `r Sys.Date()`.
-
-### <big>Agricultural & Nutrition Technology Ontology</big> Flyer
+### <big>Agricultural & Nutrition Technology Ontology</big> (recto-verso flyer)
 
 ```{r}
 
@@ -198,10 +216,12 @@ include_graphics("../assets/mbacou-print-hcant.png")
 
 Agricultural & Nutrition Technology Ontology
 
-<u>Tools</u>:
+US-letter flyer.
+
+<u>Tools</u>   
 Adobe Illustrator, Inkscape, PowerPoint
 
-### <big>Open Data Show Case</big> Conference Poster
+### <big>IFPRI Open Data Show Case</big> (conference poster)
 
 ```{r}
 
@@ -215,10 +235,12 @@ IFPRI Open Data Show Case
 
 Agricultural & Nutrition Technology Ontology
 
-<u>Tools</u>:
+A3 poster.
+
+<u>Tools</u>  
 Adobe Illustrator, Inkscape, PowerPoint
 
-### <big>IFPRI Spatial Allocation Model</big> Conference Poster
+### <big>IFPRI Spatial Production Allocation Model</big> (conference poster)
 
 ```{r}
 
@@ -228,10 +250,9 @@ include_graphics("../assets/mbacou-print-spam-poster.png")
 
 ***
 
-IFPRI Open Data Show Case
+IFPRI Spatial Production Allocation Model (poster)
 
-<u>Tools</u>:
+US-letter flyer.
+
+<u>Tools</u>  
 Adobe Illustrator, Inkscape
-
-
-
