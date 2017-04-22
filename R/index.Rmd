@@ -1,0 +1,237 @@
+---
+title:  BACOU, Melanie
+output: 
+  flexdashboard::flex_dashboard:
+    social: menu
+    source: embed
+    css: fix.css
+---
+
+```{r setup, include=FALSE}
+
+library(flexdashboard)
+library(knitr)
+library(htmltools)
+
+```
+
+# R/Shiny Dashboards {.storyboard}
+
+### <big>Long-Term Climatic Trends</big> for sub-Saharan Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-shiny-climate.png")
+
+```
+
+***
+
+Long-term Climatic Trends
+
+http://tools.harvestchoice.org/rainfall
+
+This interactive tool renders long-term monthly precipitation, near-surface temperature, and Palmer Drought Severity Index time series for sub-Saharan Africa. Gridded estimates are summarized across districts (level-2 administrative units) based on FAO GAUL 2008 boundaries for the period of 1960-2013. District-level means, seasonality-adjusted means (trend), and standard deviations are provided. All data may be downloaded in CSV or STATA formats. The 1960-2013 spatial rasters for each country may also be saved to GeoTIFF, ASCII Raster, and netCDF formats for use in a desktop GIS.
+
+<u>How to cite</u>  
+HarvestChoice, 2014. *"Long-Term Climate Trends for sub-Saharan Africa."* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. Available online at http://harvestchoice.org/node/9711.
+
+<u>Tools</u>  
+R, ggvis, leaflet, hansontable JS
+
+### <big>Sub-national Poverty and Inequalities Trends</big> for sub-Saharan Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-shiny-poverty.png")
+
+```
+
+***
+
+Sub-national Poverty and Inequalities Trends
+
+http://tools.harvestchoice.org/subnatpov
+
+An R/Shiny interactive visual that provides circa-2005 sub-national expenditure, poverty and inequality estimates across 60 countries in Africa South of the Sahara. Estimates are further broken out across gender and urban/rural residences.
+
+<u>How to cite</u>  
+HarvestChoice, 2015. *"Poverty Headcount Ratio at below PPP $1.25/day and $2/day, circa 2008 (vector format, r.1.1)."* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/subnatpov.
+
+<u>How to cite</u>  
+
+<u>Tools</u>  
+R, ggvis, leaflet, hansontable JS
+
+
+### <big>Coastal and Hinterland Population Hotspots</big> in sub-Saharan Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-shiny-population.png")
+
+```
+
+***
+
+Population Hotspots in Africa South of the Sahara
+
+http://tools.harvestchoice.org/popTrends
+
+Interactive map and graphs showing Africa's urban areas over 50,000 inhabitants (2015). Bubble sizes represent relative city sizes, and the color intensity is proportional to the projected 2000-2020 population gain (or loss) based on estimates from CIESIN SEDAC Global Population of the World (GPWv4). Country totals are calibrated to UN population projections. This tool explores the differential urban growth rates between coastal and hinterland areas.
+
+<u>Tools</u>  
+R, ggvis, leaflet
+
+<u>How to cite</u>  
+HarvestChoice, 2016. *"Coastal and Hinterland Population Hostspots in Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/popTrends.
+
+
+### <big>Comparing Travel Times</big> across sub-Saharan Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-shiny-traveltimes.png")
+
+```
+
+***
+
+Travel Times, sub-Saharan Africa
+
+http://tools.harvestchoice.org/traveltime/
+
+This tool provides simplified access to Google, HERE and OSRM (OpenStreetMap) distance and routing APIs to return and compare travel time estimates over sub-Saharan Africa.
+
+<u>Tools</u>  
+R, leaflet, hansontable JS
+
+<u>How to cite</u>  
+HarvestChoice, 2016. *"Comparison of Travel Time Estimates across Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/traveltime.
+
+# Tableau&reg; Viz {.storyboard}
+
+### <big>Regional Agricultural Snapshot</big>
+
+```{r}
+
+include_graphics("../assets/mbacou-tableau-crdash.png")
+
+```
+
+***
+
+Region dashboard.
+
+Some text.
+Melanie's gallery on Tableau&reg; Public is at https://public.tableau.com/profile/mel.b.#!/.
+
+<u>Tools</u>  
+Tableau&reg;, R
+
+### Ghana
+
+```{r}
+
+include_graphics("../assets/mbacou-tableau-ghana.png")
+
+```
+
+***
+
+Farm and household characteristics, Ghana 2005.
+
+Some text
+
+<u>Tools</u>:
+R, Tableau&reg;
+
+# Print Visuals {.storyboard}
+
+### <big>HarvestChoice CELL5M</big> Flyer
+
+```{r}
+
+include_graphics("../assets/mbacou-print-cell5m.png")
+
+```
+
+***
+
+HarvestChoice CELL5M
+
+Some text.
+
+<u>Tools</u>:
+R, ggplo2, Adobe Illustrator, Inkscape
+
+### <big>Spatial Production Allocation Model</big> Flyer
+
+```{r}
+
+include_graphics("../assets/mbacou-print-spam.png")
+
+```
+
+***
+
+Spatial Production Allocation Model
+
+<u>Tools</u>:
+Adobe Illustrator, Inkscape, PowerPoint
+
+Data query and visualization tools built on R/Shiny application framework.
+
+These applications are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) International License.
+
+Copyright 2013-2017 IFPRI/HarvestChoice. Souce code at [GitHub](https://github.com/IFPRI/sda-shiny). Last updated on `r Sys.Date()`.
+
+### <big>Agricultural & Nutrition Technology Ontology</big> Flyer
+
+```{r}
+
+include_graphics("../assets/mbacou-print-hcant.png")
+
+```
+
+***
+
+Agricultural & Nutrition Technology Ontology
+
+<u>Tools</u>:
+Adobe Illustrator, Inkscape, PowerPoint
+
+### <big>Open Data Show Case</big> Conference Poster
+
+```{r}
+
+include_graphics("../assets/mbacou-print-ic3food.png")
+
+```
+
+***
+
+IFPRI Open Data Show Case
+
+Agricultural & Nutrition Technology Ontology
+
+<u>Tools</u>:
+Adobe Illustrator, Inkscape, PowerPoint
+
+### <big>IFPRI Spatial Allocation Model</big> Conference Poster
+
+```{r}
+
+include_graphics("../assets/mbacou-print-spam-poster.png")
+
+```
+
+***
+
+IFPRI Open Data Show Case
+
+<u>Tools</u>:
+Adobe Illustrator, Inkscape
+
+
+

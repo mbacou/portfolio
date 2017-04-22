@@ -1,0 +1,24 @@
+/* Title:  A few custom fixes to Tufte HTML styles */
+/* Author: BACOU, Melanie                          */
+/* Date:   2017.04.04                              */
+
+body {
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+pre {
+  width: auto;
+  word-wrap: break-word;
+}
+
+.navbar-inverse {
+    background-color: #3C3A2E;
+    color: #DEDABE;
+    border: none;
+}
+
+.sbframe-commentary p:first-child, .chart-stage p:first-child {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+

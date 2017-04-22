@@ -1,2 +1,3 @@
-# portfolio
-Visual portfolio (R/Shiny applications, Tableau dashboards, print visuals)
+# Viusal Portfolio
+
+An annotated collection of R/Shiny applications, Tableau&reg; dashboards, and print visuals (brochures and posters).
