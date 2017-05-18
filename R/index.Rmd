@@ -37,7 +37,7 @@ This interactive tool renders long-term monthly precipitation, near-surface temp
 HarvestChoice, 2014. *"Long-Term Climate Trends for sub-Saharan Africa."* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. Available online at http://harvestchoice.org/node/9711.
 
 <u>Tools</u>  
-R, ggvis, leaflet, hansontable JS
+R/Shiny, ggvis, leaflet, hansontable JS
 
 ### <big>Sub-national Poverty and Inequalities Trends</big> for sub-Saharan Africa
 
@@ -59,7 +59,7 @@ An R/Shiny interactive visual that provides circa-2005 sub-national expenditure,
 HarvestChoice, 2015. *"Poverty Headcount Ratio at below PPP $1.25/day and $2/day, circa 2008 (vector format, r.1.1)."* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/subnatpov.
 
 <u>Tools</u>  
-R, ggvis, leaflet, hansontable JS
+R/Shiny, ggvis, leaflet, hansontable JS
 
 
 ### <big>Coastal and Hinterland Population Hotspots</big> in sub-Saharan Africa
@@ -82,7 +82,7 @@ Interactive map and graphs showing Africa's urban areas over 50,000 inhabitants 
 HarvestChoice, 2016. *"Coastal and Hinterland Population Hostspots in Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/popTrends.
 
 <u>Tools</u>  
-R, ggvis, leaflet
+R/Shiny, ggvis, leaflet
 
 
 ### <big>Comparing Travel Times</big> across sub-Saharan Africa
@@ -105,7 +105,7 @@ This tool provides simplified access to Google, HERE and OSRM (OpenStreetMap) di
 HarvestChoice, 2016. *"Comparison of Travel Time Estimates across Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/traveltime.
 
 <u>Tools</u>  
-R, ggvis, leaflet
+R/Shiny, ggvis, leaflet
 
 # Tableau&reg; Dashboards {.storyboard}
 
@@ -184,7 +184,7 @@ HarvestChoice Gridded Database of Indicators for Africa South of the Sahara
 US-letter flyer provides an overview of a large collection of spatially explicit indicators.
 
 <u>Tools</u>  
-R, ggplo2, Adobe Illustrator, Inkscape
+R, ggplot2, Adobe Illustrator, Inkscape
 
 ### <big>IFPRI Spatial Production Allocation Model</big> (recto-verso flyer)
 
