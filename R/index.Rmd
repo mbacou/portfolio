@@ -17,6 +17,26 @@ library(htmltools)
 
 # R/Shiny Applications {.storyboard}
 
+### <big>Long-Term Rainfall Time-Series</big> for Africa
+
+```{r}
+
+include_graphics("../assets/mbacou-shiny-bioclimatic.png")
+
+```
+
+***
+
+Easy access to RFE v2.0 and CHIRPSv2 long-term (20-year) precipitation time-series for Africa.
+
+https://data.worldcovr.com/shiny/bio-data/
+
+Summarized drought indices and daily rainfall at any point location over Africa. This tool is to support [WorldCover](https://worldcovr.com/) parametric insurance operations.
+
+<u>Tools</u>  
+R/Shiny, flexdashboard, data.table, mapview, highcharter
+
+
 ### <big>Long-Term Climatic Trends</big> for sub-Saharan Africa
 
 ```{r}
@@ -99,13 +119,14 @@ Comparing Travel Times Tools, sub-Saharan Africa
 
 http://tools.harvestchoice.org/traveltime/
 
-This tool provides simplified access to Google, HERE and OSRM (OpenStreetMap) distance and routing APIs to return and compare travel time estimates over sub-Saharan Africa.
+This tool provides simplified access to Google, HERE, and OSRM (OpenStreetMap) distance and routing APIs to compare travel time estimates over sub-Saharan Africa.
 
 <u>How to cite</u>  
 HarvestChoice, 2016. *"Comparison of Travel Time Estimates across Africa South of the Sahara 2000-2020"* International Food Policy Research Institute, Washington, DC., and University of Minnesota, St. Paul, MN. On-line at http://tools.harvestchoice.org/traveltime.
 
 <u>Tools</u>  
 R/Shiny, ggvis, leaflet
+
 
 # Tableau&reg; Dashboards {.storyboard}
 
