@@ -13,8 +13,6 @@ output:
 library(flexdashboard)
 library(knitr)
 library(htmltools)
-# rmarkdown::render("./R/index.Rmd", output_dir="./docs",
-#   output_options=c("use_xhtml","smartypants", "highlight_code"))
 
 ```
 
@@ -30,11 +28,14 @@ include_graphics("../assets/mbacou-shiny-bioclimatic.png")
 
 ***
 
-Easy access to RFE v2.0 and CHIRPSv2 long-term (20-year) precipitation time-series for Africa.
+RFE v2.0 and CHIRPSv2 long-term (20-year) precipitation time-series for Africa.
 
 https://data.worldcovr.com/shiny/bio-data/
 
 Summarized drought indices and daily rainfall at any point location over Africa. This tool is to support [WorldCover](https://worldcovr.com/) parametric insurance operations.
+
+<u>How to cite</u>   
+Refer to application's About tab.
 
 <u>Tools</u>  
 R/Shiny, flexdashboard, data.table, mapview, highcharter
