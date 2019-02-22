@@ -5,6 +5,7 @@ output:
     social: menu
     source: embed
     css: fix.css
+    mathjax: null
 ---
 
 ```{r setup, include=FALSE}
@@ -12,6 +13,8 @@ output:
 library(flexdashboard)
 library(knitr)
 library(htmltools)
+# rmarkdown::render("./R/index.Rmd", output_dir="./docs",
+#   output_options=c("use_xhtml","smartypants", "highlight_code"))
 
 ```
 
