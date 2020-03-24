@@ -18,6 +18,46 @@ library(htmltools)
 
 # R/Shiny Applications {.storyboard}
 
+### <big>Simulating Historical Claim Costs</big> Agricultural Index Insurance
+
+```{r}
+
+include_graphics("../assets/mbacou-app-pricing.png")
+
+```
+
+***
+
+Real-time pricing of weather-index insurance 
+
+This tool supports WorldCover agricultural insurance operations.
+
+<u>How to cite</u>   
+Confidential.
+
+<u>Tools</u>  
+R/Shiny, shinydashboardPlus, shinWidgets, data.table, leaflet, highcharter
+
+### <big>Tracking Insurance Servicing</big> Agricultural Index Insurance
+
+```{r}
+
+include_graphics("../assets/mbacou-app-servicing.png")
+
+```
+
+***
+
+Internal BI dashboard
+
+This tool supports WorldCover parametric insurance operations.
+
+<u>How to cite</u>   
+Confidential.
+
+<u>Tools</u>  
+R/Shiny, shinydashboardPlus, shinWidgets, data.table, leaflet, highcharter
+
 ### <big>Long-Term Rainfall Time-Series</big> for Africa
 
 ```{r}
@@ -30,7 +70,7 @@ include_graphics("../assets/mbacou-shiny-bioclimatic.png")
 
 RFE v2.0 and CHIRPSv2 long-term (20-year) precipitation time-series for Africa.
 
-https://data.worldcovr.com/shiny/bio-data/
+https://labs.worldcovr.com/pub/bio-data/
 
 Summarized drought indices and daily rainfall at any point location over Africa. This tool is to support [WorldCover](https://worldcovr.com/) parametric insurance operations.
 
