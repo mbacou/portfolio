@@ -36,7 +36,7 @@ This tool supports WorldCover agricultural insurance operations.
 Confidential.
 
 <u>Tools</u>  
-R/Shiny, shinydashboardPlus, shinWidgets, data.table, leaflet, highcharter
+R/Shiny, shinydashboardPlus, shinyWidgets, data.table, leaflet, highcharter
 
 ### <big>Tracking Insurance Servicing</big> Agricultural Index Insurance
 
@@ -56,7 +56,7 @@ This tool supports WorldCover parametric insurance operations.
 Confidential.
 
 <u>Tools</u>  
-R/Shiny, shinydashboardPlus, shinWidgets, data.table, leaflet, highcharter
+R/Shiny, shinydashboardPlus, shinyWidgets, data.table, leaflet, highcharter
 
 ### <big>Long-Term Rainfall Time-Series</big> for Africa
 
