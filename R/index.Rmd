@@ -18,12 +18,10 @@ library(htmltools)
 
 # R/Shiny Applications {.storyboard}
 
-### <big>Simulating Historical Claim Costs</big> Agricultural Index Insurance
+### <big>Simulating Historical Claim Costs</big><br/>Model Interface
 
 ```{r}
-
-include_graphics("../assets/mbacou-app-pricing.png")
-
+include_graphics("../assets/mbacou-shiny-merlin.png")
 ```
 
 ***
@@ -36,14 +34,30 @@ This tool supports WorldCover agricultural insurance operations.
 Confidential.
 
 <u>Tools</u>  
-R/Shiny, shinydashboardPlus, shinyWidgets, data.table, leaflet, highcharter
+R/Shiny, bs4Dash, fresh, shinyWidgets, data.table, leaflet, highcharter
 
-### <big>Tracking Insurance Servicing</big> Agricultural Index Insurance
+### <big>Insurance Premium Collection</big><br/>BI Dashboard
 
 ```{r}
+include_graphics("../assets/mbacou-shiny-sales.png")
+```
 
-include_graphics("../assets/mbacou-app-servicing.png")
+***
 
+Real-time tracking of insurance receipts and payouts. 
+
+This tool supports WorldCover agricultural insurance operations.
+
+<u>How to cite</u>   
+Confidential.
+
+<u>Tools</u>  
+R/Shiny, shinydashboardPlus, shinyWidgets, data.table, leaflet, highcharter
+
+### <big>Tracking Insurance Servicing</big><br/>BI Dashboard
+
+```{r}
+include_graphics("../assets/mbacou-shiny-servicing.png")
 ```
 
 ***
@@ -58,12 +72,10 @@ Confidential.
 <u>Tools</u>  
 R/Shiny, shinydashboardPlus, shinyWidgets, data.table, leaflet, highcharter
 
-### <big>Long-Term Rainfall Time-Series</big> for Africa
+### <big>Long-Term Rainfall Time-Series for Africa</big><br/>Model Interface
 
 ```{r}
-
 include_graphics("../assets/mbacou-shiny-bioclimatic.png")
-
 ```
 
 ***
@@ -81,12 +93,10 @@ Refer to application's About tab.
 R/Shiny, flexdashboard, data.table, mapview, highcharter
 
 
-### <big>Long-Term Climatic Trends</big> for sub-Saharan Africa
+### <big>Long-Term Climatic Trends for sub-Saharan Africa</big><br/>Model Interface
 
 ```{r}
-
 include_graphics("../assets/mbacou-shiny-climate.png")
-
 ```
 
 ***
@@ -103,12 +113,10 @@ HarvestChoice, 2014. *"Long-Term Climate Trends for sub-Saharan Africa."* Intern
 <u>Tools</u>  
 R/Shiny, ggvis, leaflet, hansontable JS
 
-### <big>Sub-national Poverty and Inequalities Trends</big> for sub-Saharan Africa
+### <big>Sub-national Poverty and Inequalities Trends for sub-Saharan Africa</big><br/> Model Interface
 
 ```{r}
-
 include_graphics("../assets/mbacou-shiny-poverty.png")
-
 ```
 
 ***
@@ -126,12 +134,10 @@ HarvestChoice, 2015. *"Poverty Headcount Ratio at below PPP $1.25/day and $2/day
 R/Shiny, ggvis, leaflet, hansontable JS
 
 
-### <big>Coastal and Hinterland Population Hotspots</big> in sub-Saharan Africa
+### <big>Coastal and Hinterland Population Hotspots in sub-Saharan Africa</big>Model Interface
 
 ```{r}
-
 include_graphics("../assets/mbacou-shiny-population.png")
-
 ```
 
 ***
@@ -149,12 +155,10 @@ HarvestChoice, 2016. *"Coastal and Hinterland Population Hostspots in Africa Sou
 R/Shiny, ggvis, leaflet
 
 
-### <big>Comparing Travel Times</big> across sub-Saharan Africa
+### <big>Comparing Travel Times across sub-Saharan Africa</big>Model Interface
 
 ```{r}
-
 include_graphics("../assets/mbacou-shiny-traveltimes.png")
-
 ```
 
 ***
